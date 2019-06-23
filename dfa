@@ -1,0 +1,143 @@
+[33mcommit 6621de469a67b843a499c81ddde607f231ea600f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dima Vakatsiienko <dvakatsiienko@lectrum.io>
+Date:   Tue Jan 29 12:02:52 2019 +0200
+
+    chore(docs): update readme
+
+[33mcommit 8a24d98c12f9fd2b9df75df130b122b6b73ff0f0[m
+Author: Dima Vakatsiienko <dvakatsiienko@lectrum.io>
+Date:   Tue Nov 27 22:48:42 2018 +0200
+
+    chore(source): update docs
+
+[33mcommit 81544e0ecf156d700414e58817af9d7588e06208[m
+Author: Dima Vakatsiienko <dvakatsiienko@lectrum.io>
+Date:   Tue Nov 27 22:15:23 2018 +0200
+
+    chore(source): update docs
+
+[33mcommit 8c2cd05ad5ef170a0de0a52bfb57f02b89cac4e9[m
+Author: Dima Vakatsiienko <dvakatsiienko@lectrum.io>
+Date:   Tue Nov 13 19:42:43 2018 +0200
+
+    chore(docs): update readme
+
+[33mcommit 1ac4b245e7a055e0b192aa0747bed08c4cd23742[m
+Author: Dima Vakatsiienko <dvakatsiienko@lectrum.io>
+Date:   Tue Nov 13 19:41:57 2018 +0200
+
+    chore(docs): update readme
+
+[33mcommit 069ac62fc0dddb41c154f9f0d68d4178039af599[m
+Author: Dima Vakatsiienko <dvakatsiienko@lectrum.io>
+Date:   Wed Nov 7 15:09:45 2018 +0200
+
+    chore(docs): refresh readme
+
+[33mcommit 4511f562028f0f5d95c8e48c2859e7cbfc01f051[m
+Author: Dima Vakatsiienko <dvakatsiienko@lectrum.io>
+Date:   Wed Oct 31 14:18:54 2018 +0200
+
+    chore(docs): update react logo
+
+[33mcommit 9d0175fbb61450dd5d4fa6e57b34c0b61ccac1be[m
+Author: Dima Vakatsiienko <dvakatsiienko@lectrum.io>
+Date:   Wed Oct 31 14:18:42 2018 +0200
+
+    chore(docs): update react logo
+
+[33mcommit cbaca90e22fd3d19fd1e48d921a6d0fd0b4a18ec[m
+Author: Dima Vakatsiienko <dvakatsiienko@lectrum.io>
+Date:   Wed Oct 31 14:17:30 2018 +0200
+
+    chore(docs): update react logo
+
+[33mcommit 9cda68e3cc4f97bd717dc703aebf76556797b796[m
+Author: Dima Vakatsiienko <dvakatsiienko@lectrum.io>
+Date:   Wed Oct 31 14:13:04 2018 +0200
+
+    chore(docs): update readme
+
+[33mcommit 8f7795339edc97f833bc8b91a8ad8ef331471cf6[m
+Author: Dima Vakatsiienko <imagnum.satellite@gmail.com>
+Date:   Mon Oct 29 09:23:04 2018 +0200
+
+    fix(source): connect reset-css to node_modules
+
+[33mcommit db71c9587bc93527542814206c3bb26e48a9f32e[m
+Author: Dima Vakatsiienko <d.vakatsiienko@lectrum.io>
+Date:   Sat Oct 20 15:56:23 2018 +0300
+
+    chore(source): update welcome message
+
+[33mcommit e0b7e0ba10b48587313a69b2d75c750776db151e[m
+Author: Dima Vakatsiienko <d.vakatsiienko@lectrum.io>
+Date:   Sat Oct 20 15:10:27 2018 +0300
+
+    feat(source): integrate yeoman
+
+[33mcommit e459a03acb20ca52bacc244ebb11b13e6cba2007[m
+Author: Dima Shvedsky <d.vakatsiienko@lectrum.io>
+Date:   Mon Jul 23 10:17:51 2018 +0300
+
+    fix(docs): fix repository address
+
+[33mcommit 177190079e13880ad993e300733faf5b61dff7db[m
+Author: Dima Shvedsky <d.vakatsiienko@lectrum.io>
+Date:   Fri Jul 20 13:03:27 2018 +0300
+
+    chore(env): remove husky configuration file
+
+[33mcommit 2df18899d7814686f843088a5a3fce419e46513c[m
+Author: Dima Shvedsky <d.vakatsiienko@lectrum.io>
+Date:   Fri Jul 20 12:57:17 2018 +0300
+
+    chore(env): remove husky configuration filt
+
+[33mcommit cfd996265adb596cc7579e2ed757d127939b302e[m
+Author: Dima Shvedsky <d.vakatsiienko@lectrum.io>
+Date:   Fri Jul 20 12:44:07 2018 +0300
+
+    chore(scripts): descrease deploy prepush check severity
+
+[33mcommit f5109d5a3861fd2902b327175b8ce66226a1969c[m
+Author: Dima Shvedsky <d.vakatsiienko@lectrum.io>
+Date:   Thu Jul 19 12:09:25 2018 +0300
+
+    feat(webpack): add missing remote warning
+
+[33mcommit c74058a0c92e06dba11b2986b70eb28dfb19577b[m
+Author: Dima Shvedsky <d.vakatsiienko@lectrum.io>
+Date:   Sun Jul 15 21:53:27 2018 +0300
+
+    feat(webpack): disconnect favicon build modes
+
+[33mcommit c5cf21eddba05982cb7a3ba5bf14958f954b57f4[m
+Author: Dima Shvedsky <d.vakatsiienko@lectrum.io>
+Date:   Sun Jul 15 20:40:26 2018 +0300
+
+    chore(docs): update README.md
+
+[33mcommit 1c00152b7c7c02ca210d1e256230afb4c85458fd[m
+Author: Dima Shvedsky <d.vakatsiienko@lectrum.io>
+Date:   Sun Jul 15 16:41:16 2018 +0300
+
+    chroe(docs): update favicon
+
+[33mcommit 96cfba3ba1e2013775b64f9708df91082ad83b0f[m
+Author: d.vakatsiienko <d.vakatsiienko@lectrum.io>
+Date:   Tue Jul 10 13:03:45 2018 +0300
+
+    chore(docs): update FAQ link
+
+[33mcommit ae548f77921a6089a06ed4f62ead2b044d17df76[m
+Author: d.vakatsiienko <d.vakatsiienko@lectrum.io>
+Date:   Tue Jul 10 12:53:37 2018 +0300
+
+    chore(docs): update FAQ link
+
+[33mcommit 6bf6424847be44fa9b5614fea17c4ec15f41b43a[m
+Author: d.vakatsiienko <d.vakatsiienko@lectrum.io>
+Date:   Tue Jul 10 12:09:13 2018 +0300
+
+    initial commit
