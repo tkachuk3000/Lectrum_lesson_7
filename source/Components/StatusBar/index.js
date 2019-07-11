@@ -6,24 +6,29 @@ import { Consumer } from 'components/HOC/withProfile';
 
 //Instruments
 import Styles from './styles.m.css';
+import { withProfile } from '../HOC/withProfile';
 // import avatar from 'theme/assets/Parrot';
 
-export default class StatusBar extends Component {
+@withProfile
+class StatusBar extends Component {
     render(){
+        const { avatar, currentUserFirstName, currentUserLastName } = this.props;
         return (
-            <Consumer >
-                {(context) => (
+            // <Consumer >
+                // {/* {(context) => ( */}
                     <section className = {Styles.statusBar}>
                         <button>
-                            <img src = {context.avatar}/>
-                            <span>{context.currentUserFirstName}</span>
+                            <img src = {avatar}/>
+                            <span>{currentUserFirstName}</span>
                             &nbsp;
-                            <span>{context.currentUserLastName}</span>
+                            <span>{currentUserLastName}</span>
                         </button>
                     </section>
-                )}
-            </Consumer>
+                // )}
+            // </Consumer>
         );
 
     }
 }
+
+export default withProfile(StatusBar);

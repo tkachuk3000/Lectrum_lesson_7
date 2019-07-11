@@ -23,7 +23,7 @@ export default class App extends Component {
 
         return (
             <Provider value = {options}>
-                <Feed {...options}/>
+                <Feed />
             </Provider>
         );
     }

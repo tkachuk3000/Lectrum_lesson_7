@@ -5,17 +5,15 @@ import { func, string, number, array } from 'prop-types';
 
 //Components
 import Like from 'components/Like';
-import { Consumer } from '../HOC/withProfile';
+// import { Consumer } from '../HOC/withProfile';
+import { withProfile } from '../HOC/withProfile';
 
 //Instruments
 import  Styles from './styles.m.css';
 
-export default class Post extends Component{
-    constructor (){
-        super();
-        
-        this._deletePost = this._deletePost.bind(this);
-    };
+@withProfile
+//export default 
+class Post extends Component{
     
     static propTypes = {
         _likePost:  func.isRequired,
@@ -29,31 +27,35 @@ export default class Post extends Component{
     //     likes:[]
     // }
 
-    _deletePost (){
+    _deletePost = () => {
         const {_deletePostFromState, id} = this.props;
         _deletePostFromState(id);
     }
     render (){
-        const { comment, created, _likePost, id, likes } = this.props;
+        const { comment, created, _likePost, id, likes, 
+                avatar, currentUserFirstName, currentUserLastName} = this.props;
+
         return (
-            <Consumer>
-                {(context) => (
+            // <Consumer>
+                // {(context) => (
                     <section className = {Styles.post}>
                         <span className = {Styles.cross} onClick = {this._deletePost}/>
-                        <img src = {context.avatar} />
-                        <a>{`${context.currentUserFirstName} ${context.currentUserLastName}`}</a>
+                        <img src = {avatar} />  
+                        <a>{`${currentUserFirstName} ${currentUserLastName}`}</a>
                         <time> {moment.unix(created).format('MMMM D h:mm:ss a')}</time>
                         <p>{comment}</p>
                         <Like 
                             _likePost = {_likePost} 
                             id = {id} 
                             likes = {likes} 
-                            {...context} 
+                            // {...context} 
                         />
                     </section>
-                )}
-            </Consumer>
+                // )}
+            // {/* </Consumer>  context.*/}
              
         )
     }
-}
+};
+
+export default withProfile(Post);
